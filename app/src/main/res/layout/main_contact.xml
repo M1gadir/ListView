@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    >
+    <ImageView
+        android:id="@+id/icoffn"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher_background"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="apa aja"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/tv_pjone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="081234567890"
+        android:textStyle="bold"
+
+        />
+    </LinearLayout>
+
+</LinearLayout>
